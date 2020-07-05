@@ -803,12 +803,24 @@ h2.resp-accordion {
     width: 80%;
 }
 
+.card-body h4 {
+    color: #000;
+}
+
 .card-header.collapsed {
     background: #0FF;
+    color: #000;
+}
+
+.card-body ul,
+label {
+    margin: 4px;
+    padding: 4px;
 }
 
 .card-header:not(.collapsed) {
     background: #008B8B;
+    color: #fff;
 }
 
 .mb-0 {
